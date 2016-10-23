@@ -4,6 +4,11 @@ Gemini Compiler Project
 
 This project was meant to be an emulator of the working of a processor, built entirely in C#
 
+Directory Structure
+*[Project Gemini](https://github.com/1abhisheknigam/Projects/tree/master/CSharp/GeminiCompiler/ProjectGemini): Source Code files
+*[Screen Captures](https://github.com/1abhisheknigam/Projects/tree/master/CSharp/GeminiCompiler/Screen%20Captures): Some images of the program in action
+*[Source Files](https://github.com/1abhisheknigam/Projects/tree/master/CSharp/GeminiCompiler/Source%20Files): These files are written in the custom "Gemini Assembly" language, used as input source code for the emulator
+
 Functionality
 >The software will take a file name of a file that contains "Gemini Assembly", a brand new language created for the purpose of this class.
 >Instruction Set for the new language:
@@ -59,7 +64,3 @@ Usage
 >Hit the "next instruction" button to go to the next instruction, and "run all" to execute all remaining instrucitons. 
 >"restart" button will allow you to rerun the program without reselecting the file you want to compile. 
 >The current instruction box will show which instruciton is being executed.
-
-Examples
->See examples of the input code in the "Source Files" folder
->See images of the GUI frontend for the simulator in the "Screen Captures" folder

@@ -1,0 +1,333 @@
+Script started on Mon Oct 28 22:05:47 2013
+strauss.udel.edu% ./a.out
+Start
+ [/home/3170a/usra/74/29821/Shell2/src]>watchmail test.txt
+test.txt Exists...
+ [/home/3170a/usra/74/29821/Shell2/src]>watchuser abhishek
+ [/home/3170a/usra/74/29821/Shell2/src]>abhishek has logged on pts/102 from wifi-roaming-128-4-83-135.nss.udel.edu
+watchuser kahn
+ [/home/3170a/usra/74/29821/Shell2/src]>watchmail Thread: Watched test.txt for 10s
+pmt
+Node data:test.txt
+ [/home/3170a/usra/74/29821/Shell2/src]>userList
+Node data:abhishek
+Node data:kahn
+ [/home/3170a/usra/74/29821/Shell2/src]>watchuser abhishek off
+Node with abhishek found and deleted.
+ [/home/3170a/usra/74/29821/Shell2/src]>watchmail Thread: Watched test.txt for 10s
+watchmail watchuser Thread: Slept for 20s
+kahn has logged out of pts/69 from localhost
+doc.txt
+doc.txt Exists...
+ [/home/3170a/usra/74/29821/Shell2/src]>userList
+Node data:kahn
+ [/home/3170a/usra/74/29821/Shell2/src]>watchmail Thread: Watched test.txt for 10s
+dead
+NAME:ccox LINE:pts/2 HOST:
+NAME:mmoye LINE:pts/3 HOST:
+NAME:dhunt LINE:pts/4 HOST:
+NAME:dhgreene LINE:pts/5 HOST:
+NAME:hbachman LINE:pts/6 HOST:
+NAME:mdavis LINE:pts/7 HOST:
+NAME:lbirche LINE:pts/8 HOST:
+NAME:falaris LINE:pts/9 HOST:
+NAME:hbachman LINE:pts/10 HOST:
+NAME:jsoares LINE:pts/11 HOST:
+NAME:fcw LINE:pts/12 HOST:
+NAME:jsoares LINE:pts/13 HOST:
+NAME:ktlane LINE:pts/14 HOST:
+NAME:hbachman LINE:pts/15 HOST:
+NAME:rbruckel LINE:pts/16 HOST:
+NAME:bgonz LINE:pts/17 HOST:
+NAME:fcmeng LINE:pts/18 HOST:
+NAME:fcw LINE:pts/19 HOST:
+NAME:empierce LINE:pts/20 HOST:
+NAME:bbamin LINE:pts/21 HOST:
+NAME:hbachman LINE:pts/22 HOST:
+NAME:dhgreene LINE:pts/23 HOST:
+NAME:pjokane LINE:pts/24 HOST:
+NAME:oreficem LINE:pts/124 HOST:localhost
+NAME:ihath LINE:pts/25 HOST:
+NAME:jhat LINE:pts/26 HOST:
+NAME:jhat LINE:pts/27 HOST:
+NAME:mgutman LINE:pts/28 HOST:
+NAME:bgonz LINE:pts/29 HOST:
+NAME:empierce LINE:pts/30 HOST:
+NAME:thelaw LINE:pts/31 HOST:
+NAME:hbachman LINE:pts/32 HOST:
+NAME:jsoares LINE:pts/33 HOST:
+NAME:ktlane LINE:pts/34 HOST:
+NAME:nlazousk LINE:pts/135 HOST:localhost
+NAME:scottf LINE:pts/36 HOST:
+NAME:jhat LINE:pts/35 HOST:
+NAME:ccox LINE:pts/37 HOST:
+NAME:bgonz LINE:pts/38 HOST:
+NAME:wangc LINE:pts/39 HOST:
+NAME:bgonz LINE:pts/40 HOST:
+NAME:lbirche LINE:pts/41 HOST:
+NAME:ihath LINE:pts/42 HOST:
+NAME:mdavis LINE:pts/43 HOST:
+NAME:ekimpel LINE:pts/44 HOST:
+NAME:lxk LINE:pts/45 HOST:
+NAME:ehreed LINE:pts/46 HOST:
+NAME:hbachman LINE:pts/47 HOST:
+NAME:zwan LINE:pts/48 HOST:
+NAME:nwolpert LINE:pts/50 HOST:
+NAME:nwolpert LINE:pts/51 HOST:
+NAME:bgonz LINE:pts/53 HOST:
+NAME:jesusc LINE:pts/54 HOST:
+NAME:xinyuzz LINE:pts/55 HOST:
+NAME:pmoraes LINE:pts/56 HOST:
+NAME:hbachman LINE:pts/57 HOST:
+NAME:garbarim LINE:pts/58 HOST:
+NAME:sjack LINE:pts/59 HOST:
+NAME:mkl LINE:pts/60 HOST:
+NAME:hbachman LINE:pts/61 HOST:
+NAME:pmoraes LINE:pts/62 HOST:
+NAME:pmanniel LINE:pts/63 HOST:
+NAME:dimola LINE:pts/64 HOST:
+NAME:mhoffman LINE:pts/65 HOST:
+NAME:jefftown LINE:pts/66 HOST:
+NAME:empierce LINE:pts/67 HOST:
+NAME:dimola LINE:pts/69 HOST:
+NAME:scottf LINE:pts/70 HOST:
+NAME:krr LINE:pts/71 HOST:
+NAME:operator LINE:pts/72 HOST:
+NAME:hbachman LINE:pts/73 HOST:
+NAME:ablevins LINE:pts/55 HOST:localhost
+NAME:cbubb LINE:pts/121 HOST:localhost
+NAME:larryh LINE:pts/117 HOST:localhost
+NAME:larryh LINE:pts/132 HOST:localhost
+NAME:mjenkins LINE:pts/26 HOST:localhost
+NAME:cbubb LINE:pts/122 HOST:localhost
+NAME:caldwell LINE:pts/62 HOST:localhost
+NAME:fangliu LINE:pts/74 HOST:
+NAME:operator LINE:pts/75 HOST:
+NAME:howardfu LINE:pts/33 HOST:localhost
+NAME:mbcjr LINE:pts/45 HOST:localhost
+NAME:dwagner LINE:pts/144 HOST:localhost
+NAME:tdinh LINE:pts/156 HOST:localhost
+NAME:rocek LINE:pts/49 HOST:localhost
+NAME:mjenkins LINE:pts/36 HOST:localhost
+NAME:larryh LINE:pts/46 HOST:localhost
+NAME:jspit LINE:pts/137 HOST:localhost
+NAME:bgonz LINE:pts/76 HOST:
+NAME:ddross LINE:pts/77 HOST:
+NAME:howardfu LINE:pts/78 HOST:
+NAME:pcr LINE:pts/79 HOST:
+NAME:pjokane LINE:pts/80 HOST:
+NAME:plimptm LINE:pts/81 HOST:
+NAME:pmoraes LINE:pts/82 HOST:
+NAME:jtapp LINE:pts/83 HOST:
+NAME:hbachman LINE:pts/85 HOST:
+NAME:dfoley LINE:pts/86 HOST:
+NAME:lbirche LINE:pts/88 HOST:
+NAME:dimola LINE:pts/89 HOST:
+NAME:jbockrat LINE:pts/90 HOST:
+NAME:pmanniel LINE:pts/91 HOST:
+NAME:kgroff LINE:pts/92 HOST:
+NAME:alexfh LINE:pts/6 HOST:localhost
+NAME:larryh LINE:pts/68 HOST:localhost
+NAME:jspit LINE:pts/160 HOST:localhost
+NAME:lpizano LINE:pts/150 HOST:localhost
+NAME:jmarks LINE:pts/51 HOST::pts/49:S.1
+NAME:kcorder LINE:pts/93 HOST:
+NAME:lbirche LINE:pts/94 HOST:
+NAME:bgonz LINE:pts/95 HOST:
+NAME:pmanniel LINE:pts/96 HOST:
+NAME:kcorder LINE:pts/97 HOST:
+NAME:larryh LINE:pts/31 HOST:localhost
+NAME:cfairclo LINE:pts/71 HOST:localhost
+NAME:ianberke LINE:pts/81 HOST:localhost
+NAME:chatterj LINE:pts/75 HOST:localhost
+NAME:aklchem LINE:pts/58 HOST:localhost
+NAME:pesek LINE:pts/66 HOST:localhost
+NAME:doke LINE:pts/74 HOST::pts/96:S.0
+NAME:pesek LINE:pts/8 HOST:localhost
+NAME:rocek LINE:pts/82 HOST:localhost
+NAME:pmanniel LINE:pts/99 HOST:
+NAME:pmanniel LINE:pts/100 HOST:
+NAME:mgutman LINE:pts/103 HOST:
+NAME:mgutman LINE:pts/104 HOST:
+NAME:dxu LINE:pts/41 HOST:localhost
+NAME:hanson LINE:pts/83 HOST:localhost
+NAME:hanson LINE:pts/66 HOST:localhost
+NAME:cfairclo LINE:pts/78 HOST:localhost
+NAME:rocek LINE:pts/76 HOST:localhost
+NAME:bgonz LINE:pts/106 HOST:
+NAME:kbich LINE:pts/107 HOST:
+NAME:kahn LINE:pts/69 HOST:localhost
+NAME:smsklo LINE:pts/152 HOST:localhost
+NAME:howardfu LINE:pts/77 HOST:localhost
+NAME:mgutman LINE:pts/108 HOST:
+NAME:jaamer LINE:pts/109 HOST:
+NAME:mgutman LINE:pts/110 HOST:
+NAME:hbachman LINE:pts/112 HOST:
+NAME:mgutman LINE:pts/113 HOST:
+NAME:acooperp LINE:pts/115 HOST:
+NAME:taoyuan LINE:pts/116 HOST:
+NAME:ktlane LINE:pts/119 HOST:
+NAME:cbarnes LINE:pts/63 HOST:localhost
+NAME:larryh LINE:pts/86 HOST:localhost
+NAME:larryh LINE:pts/87 HOST:localhost
+NAME:pesek LINE:pts/91 HOST:localhost
+NAME:kenjisan LINE:pts/93 HOST:localhost
+NAME:pesek LINE:pts/64 HOST:localhost
+NAME:salehi LINE:pts/84 HOST:localhost
+NAME:eheil LINE:pts/85 HOST:localhost
+NAME:jnangelo LINE:pts/92 HOST:localhost
+NAME:rocek LINE:pts/9 HOST:localhost
+NAME:rocek LINE:pts/72 HOST:localhost
+NAME:eschreib LINE:pts/79 HOST:localhost
+NAME:plimptm LINE:pts/84 HOST:localhost:11.0
+NAME:gmontgo LINE:pts/28 HOST:localhost
+NAME:cbubb LINE:pts/98 HOST:localhost
+NAME:oreficem LINE:pts/101 HOST:localhost
+NAME:mgutman LINE:pts/120 HOST:
+NAME:bgonz LINE:pts/121 HOST:
+NAME:karchiba LINE:pts/123 HOST:
+NAME:mgutman LINE:pts/124 HOST:
+NAME:fcmeng LINE:pts/125 HOST:
+NAME:kcorder LINE:pts/126 HOST:
+NAME:kcorder LINE:pts/127 HOST:
+NAME:mgutman LINE:pts/128 HOST:
+NAME:kferris LINE:pts/130 HOST:
+NAME:fcmeng LINE:pts/125 HOST:localhost
+NAME:tdinh LINE:pts/127 HOST:localhost
+NAME:jdarko LINE:pts/105 HOST:localhost
+NAME:cbubb LINE:pts/83 HOST:localhost
+NAME:apieffer LINE:pts/131 HOST:
+NAME:kcorder LINE:pts/140 HOST:
+NAME:schivi LINE:pts/141 HOST:
+NAME:hanson LINE:pts/141 HOST:localhost
+NAME:hanson LINE:pts/116 HOST:localhost
+NAME:nlazousk LINE:pts/129 HOST:localhost
+NAME:dwagner LINE:pts/112 HOST:localhost
+NAME:ericmcg LINE:pts/138 HOST:localhost
+NAME:hbachman LINE:pts/143 HOST:
+NAME:mjenkins LINE:pts/102 HOST:localhost
+NAME:nlazousk LINE:pts/107 HOST:localhost
+NAME:kwest LINE:pts/114 HOST:localhost
+NAME:dwagner LINE:pts/104 HOST:localhost
+NAME:sharptom LINE:pts/150 HOST:
+NAME:shsaxena LINE:pts/152 HOST:
+NAME:avellen LINE:pts/153 HOST:
+NAME:matthewx LINE:pts/154 HOST:
+NAME:danli LINE:pts/155 HOST:
+NAME:tdinh LINE:pts/130 HOST:localhost
+NAME:mjenkins LINE:pts/110 HOST:localhost
+NAME:dwagner LINE:pts/134 HOST:localhost
+NAME:dwagner LINE:pts/111 HOST:localhost
+NAME:danli LINE:pts/156 HOST:
+NAME:wchjones LINE:pts/157 HOST:
+NAME:yuzhuliu LINE:pts/158 HOST:
+NAME:yvonne LINE:pts/159 HOST:
+NAME:zyr LINE:pts/160 HOST:
+NAME:dwagner LINE:pts/153 HOST:localhost
+NAME:shuiqiny LINE:pts/164 HOST:
+NAME:ameliag LINE:pts/165 HOST:
+NAME:hzy LINE:pts/166 HOST:
+NAME:hzy LINE:pts/167 HOST:
+NAME:shuiqiny LINE:pts/168 HOST:
+NAME:sylarcp LINE:pts/170 HOST:
+NAME:gaoth LINE:pts/171 HOST:
+NAME:pratap LINE:pts/172 HOST:
+NAME:heyjoe LINE:pts/140 HOST:localhost
+NAME:yuzhuliu LINE:pts/173 HOST:
+NAME:ameliag LINE:pts/174 HOST:
+NAME:sylarcp LINE:pts/177 HOST:
+NAME:dbodine LINE:pts/178 HOST:
+NAME:sdeng LINE:pts/181 HOST:
+NAME:nlazousk LINE:pts/154 HOST:localhost
+NAME:cgriv LINE:pts/159 HOST:localhost
+NAME:markyu LINE:pts/147 HOST:localhost
+NAME:danli LINE:pts/179 HOST:
+NAME:caozhe LINE:pts/180 HOST:
+NAME:panwang LINE:pts/182 HOST:
+NAME:panwang LINE:pts/183 HOST:
+NAME:operator LINE:pts/184 HOST:
+NAME:operator LINE:pts/185 HOST:
+ [/home/3170a/usra/74/29821/Shell2/src]>userswatchmail Thread: Watched doc.txt for 10s
+
+millerbe has logged on pts/1 from bilbo.nss.udel.edu
+rhutt has logged on pts/49 from c-71-58-6-19.hsd1.de.comcast.net
+scanner has logged on pts/52 from roaming-7-110.nss.udel.edu
+doke has logged on pts/68 from madness.nss.udel.edu
+rocek has logged on pts/115 from localhost
+chuanc has logged on pts/84 from host-59-87.nss.udel.edu
+doke has logged on pts/87 from madness.nss.udel.edu
+nwolpert has logged on pts/98 from pool-71-175-84-110.phlapa.fios.verizon.net
+cshen has logged on pts/101 from host-4-21-33.nss.udel.edu
+abhishek has logged on pts/102 from wifi-roaming-128-4-83-135.nss.udel.edu
+cash has logged on pts/105 from wintermute.nss.udel.edu
+dnairn has logged on pts/111 from wombat.us.udel.edu
+mrau has logged on pts/114 from hops.nss.udel.edu
+sylarcp has logged on pts/117 from roaming-178-60.nss.udel.edu
+dgb has logged on pts/118 from wifi-roaming-128-4-199-59.nss.udel.edu
+rocek has logged on pts/122 from rocek.anthro.udel.edu
+scarrick has logged on pts/129 from schubert.udel.edu
+sylarcp has logged on pts/132 from c-76-111-172-243.hsd1.de.comcast.net
+sylarcp has logged on pts/133 from roaming-178-60.nss.udel.edu
+sylarcp has logged on pts/134 from c-76-111-172-243.hsd1.de.comcast.net
+apieffer has logged on pts/135 from wifi-roaming-128-4-124-223.nss.udel.edu
+gmeighen has logged on pts/136 from c-69-242-16-78.hsd1.de.comcast.net
+pesek has logged on pts/137 from pool-74-109-7-159.phlapa.fios.verizon.net
+awing has logged on pts/138 from wifi-roaming-128-4-100-131.nss.udel.edu
+dejzhang has logged on pts/139 from c-68-80-168-156.hsd1.nj.comcast.net
+pwheth has logged on pts/142 from wifi-roaming-128-4-174-194.nss.udel.edu
+hollys has logged on pts/144 from pool-71-165-11-153.lsanca.fios.verizon.net
+cshen has logged on pts/145 from host-4-21-33.nss.udel.edu
+dejzhang has logged on pts/146 from c-68-80-168-156.hsd1.nj.comcast.net
+avellen has logged on pts/147 from wifi-roaming-128-4-81-253.nss.udel.edu
+qhan has logged on pts/148 from hunter.math.udel.edu
+chuanc has logged on pts/149 from host-59-87.nss.udel.edu
+kciola has logged on pts/151 from pool-173-62-198-230.phlapa.fios.verizon.net
+dbodine has logged on pts/161 from wifi-roaming-128-4-78-36.nss.udel.edu
+sylarcp has logged on pts/162 from c-76-111-172-243.hsd1.de.comcast.net
+nwolpert has logged on pts/163 from pool-71-175-84-110.phlapa.fios.verizon.net
+xiduo has logged on pts/169 from c-68-82-11-186.hsd1.pa.comcast.net
+kciola has logged on pts/175 from roaming-230-231.nss.udel.edu
+sylarcp has logged on pts/176 from roaming-178-60.nss.udel.edu
+ [/home/3170a/usra/74/29821/Shell2/src]>warnloagwatchmail Thread: Watched test.txt for 10s
+
+warnloag: The system cannot find the path specified
+ [/home/3170a/usra/74/29821/Shell2/src]>warnload 0.watchuser Thread: Slept for 20s
+kahn has logged out of pts/69 from localhost
+watchmail Thread: Watched doc.txt for 10s
+2
+ [/home/3170a/usra/74/29821/Shell2/src]>Warning: Load Level:5.04 Threshold:0.2
+uptime
+Executing new process:uptime
+ 10:06pm  up 215 day(s), 13:44,  38 users,  load average: 5.04, 5.04, 5.07
+ [/home/3170a/usra/74/29821/Shell2/src]>warnload watchmail Thread: Watched test.txt for 10s
+5.05
+ [/home/3170a/usra/74/29821/Shell2/src]>watchmail Thread: Watched doc.txt for 10s
+watchmail Thread: Watched test.txt for 10s
+watchuser Thread: Slept for 20s
+kahn has logged out of pts/69 from localhost
+watchmail Thread: Watched doc.txt for 10s
+watchmail Thread: Watched test.txt for 10s
+You've got mail in test.txt at Mon Oct 28 22:07:05 2013
+ls watchmail Thread: Watched doc.txt for 10s
+&
+Executing new background process:ls
+ [/home/3170a/usra/74/29821/Shell2/src]>List.c         Shell2.h       allthread.txt  getPath.h      watchmail.txt
+List.h         Start2.c       doc.txt        test.c
+Shell2.c       a.out          getPath.c      test.txt
+
+ [/home/3170a/usra/74/29821/Shell2/src]>Warnload Thread: Slept for 30.
+watchmail Thread: Watched test.txt for 10s
+userList
+Node data:kahn
+ [/home/3170a/usra/74/29821/Shell2/src]>watchuser Thread: Slept for 20s
+kahn has logged out of pts/69 from localhost
+watchmail Thread: Watched doc.txt for 10s
+warnload 0.0watchmail Thread: Watched test.txt for 10s
+sd
+ [/home/3170a/usra/74/29821/Shell2/src]>Load = 0.0, Ending Thread..
+watchmail Thread: Watched doc.txt for 10s
+exit
+Executing built-in Command:exit
+Exiting..strauss.udel.edu% exit
+strauss.udel.edu% 
+script done on Mon Oct 28 22:07:32 2013

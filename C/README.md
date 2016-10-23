@@ -1,2 +1,3 @@
 # C
-Personal Projects done in the C Programming Language
+A lot of my work in Parallel Programming has been in C, making working in C extremely important.
+

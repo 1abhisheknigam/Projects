@@ -1,0 +1,26 @@
+Script started on Mon Oct 28 19:29:49 2013
+strauss.udel.edu% ./a.out
+Start
+ [/home/3170a/usra/74/29821/Shell2/src]>ls &
+Executing new background process:ls
+ [/home/3170a/usra/74/29821/Shell2/src]>List.c            Shell2.h          background.txt    proj2_script.txt
+List.h            Start2.c          getPath.c
+Shell2.c          a.out             getPath.h
+
+ [/home/3170a/usra/74/29821/Shell2/src]>ls
+Executing new process:ls
+List.c            Shell2.h          background.txt    proj2_script.txt
+List.h            Start2.c          getPath.c
+Shell2.c          a.out             getPath.h
+ [/home/3170a/usra/74/29821/Shell2/src]>uptime &
+Executing new background process:uptime
+ [/home/3170a/usra/74/29821/Shell2/src]>  7:30pm  up 215 day(s), 11:07,  63 users,  load average: 5.28, 5.26, 5.25
+
+ [/home/3170a/usra/74/29821/Shell2/src]>uptime
+Executing new process:uptime
+  7:30pm  up 215 day(s), 11:07,  63 users,  load average: 5.28, 5.26, 5.25
+ [/home/3170a/usra/74/29821/Shell2/src]>exit
+Executing built-in Command:exit
+Exiting..strauss.udel.edu% exit
+strauss.udel.edu% 
+script done on Mon Oct 28 19:30:16 2013

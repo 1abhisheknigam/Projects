@@ -1,0 +1,34 @@
+Script started on Mon Oct 28 22:03:52 2013
+strauss.udel.edu% ./a.out
+Start
+ [/home/3170a/usra/74/29821/Shell2/src]>watchmail test.txt
+test.txt Exists...
+ [/home/3170a/usra/74/29821/Shell2/src]>watchmail Thread: Watched test.txt for 10s
+watchmail Thread: Watched test.txt for 10s
+watchmail doc.txt
+doc.txt Exists...
+ [/home/3170a/usra/74/29821/Shell2/src]>pmt
+Node data:test.txt
+Node data:doc.txt
+ [/home/3170a/usra/74/29821/Shell2/src]>watchmwatchmail Thread: Watched test.txt for 10s
+ail test.txt off
+Node with test.txt found and deleted.
+ [/home/3170a/usra/74/29821/Shell2/src]>watchmail Thread: Watched doc.txt for 10s
+pmt
+Node data:doc.txt
+ [/home/3170a/usra/74/29821/Shell2/src]>watchmail Thread: Watched doc.txt for 10s
+watchmail Thread: Watched doc.txt for 10s
+watchmail Thread: Watched doc.txt for 10s
+You've got mail in doc.txt at Mon Oct 28 22:05:05 2013
+ex^?^?
+ex: The system cannot find the path specified
+ [/home/3170a/usra/74/29821/Shell2/src]>watchmail doc.txt offwatchmail Thread: Watched doc.txt for 10s
+
+Node with doc.txt found and deleted.
+ [/home/3170a/usra/74/29821/Shell2/src]>pmt
+No Data.
+ [/home/3170a/usra/74/29821/Shell2/src]>exit
+Executing built-in Command:exit
+Exiting..strauss.udel.edu% exit
+strauss.udel.edu% 
+script done on Mon Oct 28 22:05:19 2013

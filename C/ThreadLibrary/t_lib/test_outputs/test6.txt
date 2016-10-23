@@ -1,0 +1,17 @@
+Script started on Sun Nov 24 19:26:07 2013
+strauss.udel.edu% ./a.out
+Producer (1): [hello world... - tid 1] [length=22]
+Producer (1): [bye, bye - tid 1] [length=16]
+Producer (2): [hello world... - tid 2] [length=22]
+Producer (2): [bye, bye - tid 2] [length=16]
+Message from mailbox: [hello world... - tid 1] has length[22]
+Message from mailbox: [bye, bye - tid 1] has length[16]
+Message from mailbox: [hello world... - tid 2] has length[22]
+Message from mailbox: [bye, bye - tid 2] has length[16]
+Cleared semaphore...
+Emptied mailbox...
+All queues cleared. Exiting..
+Done with mailbox test...
+strauss.udel.edu% exit
+strauss.udel.edu% 
+script done on Sun Nov 24 19:26:16 2013

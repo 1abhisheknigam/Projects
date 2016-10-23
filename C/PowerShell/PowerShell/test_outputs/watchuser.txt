@@ -1,0 +1,31 @@
+Script started on Mon Oct 28 19:39:26 2013
+strauss.udel.edu% ./a.out
+Start
+ [/home/3170a/usra/74/29821/Shell2/src]>watchuser abhishek
+ [/home/3170a/usra/74/29821/Shell2/src]>abhishek has logged on pts/168 from wifi-roaming-128-4-83-135.nss.udel.edu
+watchuser cshen
+ [/home/3170a/usra/74/29821/Shell2/src]>watchuser Thread: Slept for 20s
+cshen has logged on pts/101 from host-4-21-33.nss.udel.edu
+cshen has logged on pts/145 from host-4-21-33.nss.udel.edu
+abhishek has logged on pts/168 from wifi-roaming-128-4-83-135.nss.udel.edu
+userList
+Node data:abhishek
+Node data:cshen
+ [/home/3170a/usra/74/29821/Shell2/src]>watchuser abhishek off
+Node with abhishek found and deleted.
+ [/home/3170a/usra/74/29821/Shell2/src]>userList
+Node data:cshen
+ [/home/3170a/usra/74/29821/Shell2/src]>watchuser Thread: Slept for 20s
+cshen has logged on pts/101 from host-4-21-33.nss.udel.edu
+cshen has logged on pts/145 from host-4-21-33.nss.udel.edu
+watchuser cshen off
+Node with cshen found and deleted.
+ [/home/3170a/usra/74/29821/Shell2/src]>userList
+No Data.
+ [/home/3170a/usra/74/29821/Shell2/src]>watchuser Thread: Slept for 20s
+watchuser Thread: No users to watch!
+exit
+Executing built-in Command:exit
+Exiting..strauss.udel.edu% exit
+strauss.udel.edu% 
+script done on Mon Oct 28 19:40:45 2013

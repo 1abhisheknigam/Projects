@@ -1,0 +1,1630 @@
+Script started on Mon Oct 07 15:39:21 2013
+strauss.udel.edu% ./a.out
+Start
+ [/home/3170a/usra/74/29821/Shell/src]>
+ [/home/3170a/usra/74/29821/Shell/src]>^D
+ [/home/3170a/usra/74/29821/Shell/src]>^ZCaught signal: 24
+^CCaught signal: 2
+
+ [/home/3170a/usra/74/29821/Shell/src]>which
+Executing built-in Command:which
+Which needs at least one argument.
+ [/home/3170a/usra/74/29821/Shell/src]>which ls
+Executing built-in Command:which
+/usr/bin/ls
+ [/home/3170a/usra/74/29821/Shell/src]>ls
+Executing new process:ls
+Shell.c                 a.out                   proj2_script.txt
+Shell.h                 getPath.c               proj2_scroptacslksacsk
+Start.c                 getPath.h
+ [/home/3170a/usra/74/29821/Shell/src]>
+ [/home/3170a/usra/74/29821/Shell/src]>^D
+ [/home/3170a/usra/74/29821/Shell/src]>^ZCaught signal: 24
+^CCaught signal: 2
+
+ [/home/3170a/usra/74/29821/Shell/src]>ls -l
+Executing new process:ls
+total 136
+-rw-------   1 abhishek 4000       23331 Oct  7 15:34 Shell.c
+-rw-------   1 abhishek 4000         388 Oct  6 17:11 Shell.h
+-rw-------   1 abhishek 4000         521 Oct  7 10:03 Start.c
+-rwx------   1 abhishek 4000       19740 Oct  7 15:38 a.out
+-rw-------   1 abhishek 4000        1297 Sep 29 13:42 getPath.c
+-rw-------   1 abhishek 4000         379 Sep 29 13:42 getPath.h
+-rw-------   1 abhishek 4000         939 Oct  7 15:40 proj2_script.txt
+-rw-------   1 abhishek 4000         126 Oct  7 15:39 proj2_scroptacslksacsk
+ [/home/3170a/usra/74/29821/Shell/src]>ls -l -F /kernel/genunix
+Executing new process:ls
+/kernel/genunix: No such file or directory
+ [/home/3170a/usra/74/29821/Shell/src]>ls -l -F /etc/rpc
+Executing new process:ls
+-rw-r--r--   1 root     other       1987 Aug 30  2012 /etc/rpc
+ [/home/3170a/usra/74/29821/Shell/src]>ls -l -a /etc/rpc
+Executing new process:ls
+-rw-r--r--   1 root     other       1987 Aug 30  2012 /etc/rpc
+ [/home/3170a/usra/74/29821/Shell/src]>where
+Executing built-in Command:where
+Where needs at least one argument.
+ [/home/3170a/usra/74/29821/Shell/src]>where ls
+Executing built-in Command:where
+/usr/bin/ls
+/usr/ucb/ls
+ [/home/3170a/usra/74/29821/Shell/src]>/usr/ucb/ls -l -g
+Executing new process:/usr/ucb/ls
+total 68
+-rw-------   1 abhishek 4000        23331 Oct  7 15:34 Shell.c
+-rw-------   1 abhishek 4000          388 Oct  6 17:11 Shell.h
+-rw-------   1 abhishek 4000          521 Oct  7 10:03 Start.c
+-rwx------   1 abhishek 4000        19740 Oct  7 15:38 a.out
+-rw-------   1 abhishek 4000         1297 Sep 29 13:42 getPath.c
+-rw-------   1 abhishek 4000          379 Sep 29 13:42 getPath.h
+-rw-------   1 abhishek 4000         2229 Oct  7 15:41 proj2_script.txt
+-rw-------   1 abhishek 4000          126 Oct  7 15:39 proj2_scroptacslksacsk
+ [/home/3170a/usra/74/29821/Shell/src]>/usr/ucb/ls -l
+Executing new process:/usr/ucb/ls
+total 68
+-rw-------   1 abhishek    23331 Oct  7 15:34 Shell.c
+-rw-------   1 abhishek      388 Oct  6 17:11 Shell.h
+-rw-------   1 abhishek      521 Oct  7 10:03 Start.c
+-rwx------   1 abhishek    19740 Oct  7 15:38 a.out
+-rw-------   1 abhishek     1297 Sep 29 13:42 getPath.c
+-rw-------   1 abhishek      379 Sep 29 13:42 getPath.h
+-rw-------   1 abhishek     2867 Oct  7 15:41 proj2_script.txt
+-rw-------   1 abhishek      126 Oct  7 15:39 proj2_scroptacslksacsk
+ [/home/3170a/usra/74/29821/Shell/src]>/usr/bin/ls -l -g
+Executing new process:/usr/bin/ls
+total 136
+-rw-------   1 4000       23331 Oct  7 15:34 Shell.c
+-rw-------   1 4000         388 Oct  6 17:11 Shell.h
+-rw-------   1 4000         521 Oct  7 10:03 Start.c
+-rwx------   1 4000       19740 Oct  7 15:38 a.out
+-rw-------   1 4000        1297 Sep 29 13:42 getPath.c
+-rw-------   1 4000         379 Sep 29 13:42 getPath.h
+-rw-------   1 4000        3436 Oct  7 15:41 proj2_script.txt
+-rw-------   1 4000         126 Oct  7 15:39 proj2_scroptacslksacsk
+ [/home/3170a/usra/74/29821/Shell/src]>/usr/bin/ls -l
+Executing new process:/usr/bin/ls
+total 136
+-rw-------   1 abhishek 4000       23331 Oct  7 15:34 Shell.c
+-rw-------   1 abhishek 4000         388 Oct  6 17:11 Shell.h
+-rw-------   1 abhishek 4000         521 Oct  7 10:03 Start.c
+-rwx------   1 abhishek 4000       19740 Oct  7 15:38 a.out
+-rw-------   1 abhishek 4000        1297 Sep 29 13:42 getPath.c
+-rw-------   1 abhishek 4000         379 Sep 29 13:42 getPath.h
+-rw-------   1 abhishek 4000        3995 Oct  7 15:41 proj2_script.txt
+-rw-------   1 abhishek 4000         126 Oct  7 15:39 proj2_scroptacslksacsk
+ [/home/3170a/usra/74/29821/Shell/src]>file *
+Executing new process:file
+Shell.c:        ascii text
+Shell.h:        ascii text
+Start.c:        c program text
+a.out:          ELF 32-bit MSB executable SPARC Version 1, dynamically linked, not stripped, no debugging information available
+getPath.c:      c program text
+getPath.h:      ascii text
+proj2_script.txt:       ascii text
+proj2_scroptacslksacsk: ascii text
+ [/home/3170a/usra/74/29821/Shell/src]>ls *
+Executing new process:ls
+Shell.c                 a.out                   proj2_script.txt
+Shell.h                 getPath.c               proj2_scroptacslksacsk
+Start.c                 getPath.h
+ [/home/3170a/usra/74/29821/Shell/src]>ls *.c
+Executing new process:ls
+Shell.c    Start.c    getPath.c
+ [/home/3170a/usra/74/29821/Shell/src]>ls -l SHell.*
+Wildcard Error: SHell.*: No match.
+ [/home/3170a/usra/74/29821/Shell/src]>ls -l Shell.*
+Executing new process:ls
+-rw-------   1 abhishek 4000       23331 Oct  7 15:34 Shell.c
+-rw-------   1 abhishek 4000         388 Oct  6 17:11 Shell.h
+ [/home/3170a/usra/74/29821/Shell/src]>ls -l S*.c
+Executing new process:ls
+-rw-------   1 abhishek 4000       23331 Oct  7 15:34 Shell.c
+-rw-------   1 abhishek 4000         521 Oct  7 10:03 Start.c
+ [/home/3170a/usra/74/29821/Shell/src]>ls -l S*hell.c
+Executing new process:ls
+-rw-------   1 abhishek 4000       23331 Oct  7 15:34 Shell.c
+ [/home/3170a/usra/74/29821/Shell/src]>ls Shell.?
+Executing new process:ls
+Shell.c  Shell.h
+ [/home/3170a/usra/74/29821/Shell/src]>ls ?hell.c
+Executing new process:ls
+Shell.c
+ [/home/3170a/usra/74/29821/Shell/src]>ls *.?
+Executing new process:ls
+Shell.c    Shell.h    Start.c    getPath.c  getPath.h
+
+..:
+Test1.exe.stackdump  src
+ [/home/3170a/usra/74/29821/Shell/src]>blah
+blah: The system cannot find the path specified
+ [/home/3170a/usra/74/29821/Shell/src]>/blah
+/blah: The system cannot find the path specified
+ [/home/3170a/usra/74/29821/Shell/src]>ls -l /blah
+Executing new process:ls
+/blah: No such file or directory
+ [/home/3170a/usra/74/29821/Shell/src]>/usr/bin
+Executing new process:/usr/bin
+Execution Error: Permission denied
+ [/home/3170a/usra/74/29821/Shell/src]>/bin/ls -la /
+Executing new process:/bin/ls
+total 1493
+drwxr-xr-x  37 root     root        1024 Mar 27  2013 .
+drwxr-xr-x  37 root     root        1024 Mar 27  2013 ..
+-rw-------   1 root     root          62 Sep 15  2008 .Xauthority
+-rw-------   1 root     root        2807 Oct  3 16:41 .bash_history
+-rw-r--r--   1 root     root          19 May 31  2012 .filesystemname_strauss.udel.edu_root
+drwxr-xr-x   2 root     root         512 May 30  2012 .gstreamer-0.8
+drwxr-xr-x   2 root     root         512 Sep 22  2010 .idlerc
+-rw-------   1 root     root         154 Aug 21 18:23 .lesshst
+-rw-------   1 root     root       45257 Apr 11  2008 .lsof_mahler
+-rw-------   1 root     root       43634 Dec 12  2012 .lsof_strauss
+-rw-r--r--   1 root     root          11 Sep 14  2009 .mh_profile
+drwx------   2 root     root         512 Aug 20  2008 .ssh
+drwxr-xr-x   3 root     root         512 Dec 17  2007 .sunstudio
+drwx------   3 root     root         512 Dec 12  2007 .sunw
+drwx------   2 root     root        8192 Aug 28 18:44 .trash
+drwxr-xr-x   2 root     root         512 Apr  5  2010 3170a
+drwx------   2 root     root         512 Sep 14  2009 Mail
+lrwxrwxrwx   1 root     root           9 Dec 12  2007 bin -> ./usr/bin
+drwxr-xr-x   3 root     sys          512 Mar 17  2011 boot
+drwxr-xr-x  18 root     sys         5120 Sep  3 11:14 dev
+drwxr-xr-x   2 root     sys         1024 Mar 27  2013 devices
+drwxr-xr-x  89 root     sys         5632 Aug  2 14:42 etc
+drwxr-xr-x   2 root     sys          512 Dec 12  2007 export
+drwxr-xr-x   8 root     root         512 May  9  2011 home
+drwxr-xr-x  35 root     4410         512 May 31  2012 hsm
+drwxr-xr-x   2 root     root         512 Apr 11  2011 identity
+drwxr-xr-x  15 root     sys          512 Dec 12  2007 kernel
+drwxr-xr-x   9 root     bin         5632 Dec 20  2012 lib
+drwx------   2 root     root        8192 Dec 12  2007 lost+found
+drwxrwx---   7 root     mailstor       8 Apr 18 18:06 mirapoint
+drwxr-xr-x   4 root     sys          512 Dec 12  2012 mnt
+drwxr-xr-x   5 root     root         512 May 31  2012 mycourses
+dr-xr-xr-x   2 root     root         512 Dec 12  2007 net
+lrwxrwxrwx   1 root     root           8 Aug 30  2012 nsr -> /var/nsr
+drwxr-xr-x 206 root     sys         4608 Mar 18  2013 opt
+drwxr-xr-x  41 root     sys         1536 Mar 17  2011 platform
+dr-xr-xr-x 366 root     root      480032 Oct  7 15:43 proc
+drwxr-xr-x   2 root     sys         1024 Dec 20  2012 sbin
+drwxr-xr-x  37 root     root        1536 Jun  1  2012 scratch
+drwxr-xr-x   4 root     root         512 Dec 12  2007 system
+drwxr-xr-x   6 root     root         512 Aug 11  2010 test_vol
+drwxrwxrwt 510 root     sys       103265 Oct  7 15:43 tmp
+drwxr-xr-x  41 root     sys         1024 Aug 30  2012 usr
+drwxr-xr-x  51 root     sys         1536 Oct  7 04:36 var
+dr-xr-xr-x   6 root     root         512 Mar 27  2013 vol
+drwxr-xr-x  32 root     root        1024 May 11 15:08 www
+ [/home/3170a/usra/74/29821/Shell/src]>file /bin/ls /bin/rm
+Executing new process:file
+/bin/ls:        ELF 32-bit MSB executable SPARC Version 1, dynamically linked, stripped
+/bin/rm:        ELF 32-bit MSB executable SPARC Version 1, dynamically linked, stripped
+ [/home/3170a/usra/74/29821/Shell/src]>which ls rm
+Executing built-in Command:which
+/usr/bin/ls
+/usr/bin/rm
+ [/home/3170a/usra/74/29821/Shell/src]>b
+b: The system cannot find the path specified
+ [/home/3170a/usra/74/29821/Shell/src]>where ls rm
+Executing built-in Command:where
+/usr/bin/ls
+/usr/ucb/ls
+/usr/bin/rm
+ [/home/3170a/usra/74/29821/Shell/src]>list
+Executing built-in Command:list
+.
+..
+a.out
+getPath.c
+getPath.h
+Shell.c
+Shell.h
+Start.c
+proj2_scroptacslksacsk
+proj2_script.txt
+ [/home/3170a/usra/74/29821/Shell/src]>list / /usr/proc/bin
+Executing built-in Command:list
+/:
+.
+..
+lost+found
+var
+usr
+etc
+bin
+dev
+lib
+mnt
+opt
+proc
+sbin
+system
+tmp
+platform
+kernel
+devices
+net
+export
+home
+.ssh
+.sunw
+vol
+scratch
+www
+.lsof_strauss
+.sunstudio
+nsr
+.lesshst
+mirapoint
+.bash_history
+hsm
+mycourses
+.lsof_mahler
+.trash
+Mail
+.mh_profile
+3170a
+test_vol
+.Xauthority
+.idlerc
+boot
+identity
+.gstreamer-0.8
+.filesystemname_strauss.udel.edu_root
+/usr/proc/bin:
+.
+..
+pcred
+pfiles
+pflags
+pldd
+pmap
+prun
+psig
+pstack
+pstop
+ptime
+ptree
+pwait
+pwdx
+ [/home/3170a/usra/74/29821/Shell/src]>cd
+Executing built-in Command:cd
+ [/home/usra/74/29821]>pwd
+Executing built-in Command:pwd
+Current Working Directory: /home/3170a/usra/74/29821
+ [/home/usra/74/29821]>cd /blah
+Executing built-in Command:cd
+cd Error: No such file or directory
+ [/home/3170a/usra/74/29821/Shell/src]>more Shell.c
+Executing new process:more
+/*
+ ============================================================================
+ Name        : Shell.c
+ Author      : Abhishek Nigam
+ Version     : 2.1
+ Copyright   : No copying!
+ Description : Shell Program in C, ANSI-style. The main program.
+ ============================================================================
+ */
+#include <stdio.h>
+#include <string.h>
+#include <strings.h>
+#include <limits.h>
+#include <unistd.h>
+#include <stdlib.h>
+
+#include <glob.h>
+#include <dirent.h>
+#include <sys/types.h>
+#include <sys/wait.h>
+#include <signal.h>
+#include "Shell.h"
+#include <pwd.h>
+[7m--More--(2%)[mCaught signal: 2
+ [/home/3170a/usra/74/29821/Shell/src]>[K
+ [/home/3170a/usra/74/29821]>cd /usr/bin /usr/ucb
+Executing built-in Command:cd
+cd: Error: Too many arguments
+ [/home/3170a/usra/74/29821]>cd -
+Executing built-in Command:cd
+ [/home/3170a/usra/74/29821/Shell/src]>pwd
+Executing built-in Command:pwd
+Current Working Directory: /home/3170a/usra/74/29821/Shell/src
+ [/home/3170a/usra/74/29821/Shell/src]>./ls /
+Executing new process:./ls
+3170a       etc         lib         nsr         system      www
+Mail        export      lost+found  opt         test_vol
+bin         home        mirapoint   platform    tmp
+boot        hsm         mnt         proc        usr
+dev         identity    mycourses   sbin        var
+devices     kernel      net         scratch     vol
+ [/home/3170a/usra/74/29821/Shell/src]>../bin/ls /
+Executing new process:../bin/ls
+3170a       etc         lib         nsr         system      www
+Mail        export      lost+found  opt         test_vol
+bin         home        mirapoint   platform    tmp
+boot        hsm         mnt         proc        usr
+dev         identity    mycourses   sbin        var
+devices     kernel      net         scratch     vol
+ [/home/3170a/usra/74/29821/Shell/src]>history
+Executing built-in Command:history
+Last 1 Command:history
+Last 2 Command:../bin/ls /
+Last 3 Command:./ls /
+Last 4 Command:pwd
+Last 5 Command:cd -
+Last 6 Command:cd /usr/bin /usr/ucb
+Last 7 Command:cd /bllah
+Last 8 Command:pwd
+Last 9 Command:cd
+Last 10 Command:list / /usr/proc/bin
+ [/home/3170a/usra/74/29821/Shell/src]>history 15
+Executing built-in Command:history
+Last 1 Command:history 15
+Last 2 Command:history
+Last 3 Command:../bin/ls /
+Last 4 Command:./ls /
+Last 5 Command:pwd
+Last 6 Command:cd -
+Last 7 Command:cd /usr/bin /usr/ucb
+Last 8 Command:cd /bllah
+Last 9 Command:pwd
+Last 10 Command:cd
+Last 11 Command:list / /usr/proc/bin
+Last 12 Command:list
+Last 13 Command:where ls rm
+Last 14 Command:b
+Last 15 Command:which ls rm
+ [/home/3170a/usra/74/29821/Shell/src]>history
+Executing built-in Command:history
+Last 1 Command:history
+Last 2 Command:history 15
+Last 3 Command:history
+Last 4 Command:../bin/ls /
+Last 5 Command:./ls /
+Last 6 Command:pwd
+Last 7 Command:cd -
+Last 8 Command:cd /usr/bin /usr/ucb
+Last 9 Command:cd /bllah
+Last 10 Command:pwd
+ [/home/3170a/usra/74/29821/Shell/src]>history 5
+Executing built-in Command:history
+Last 1 Command:history 5
+Last 2 Command:history
+Last 3 Command:history 15
+Last 4 Command:history
+Last 5 Command:../bin/ls /
+ [/home/3170a/usra/74/29821/Shell/src]>history
+Executing built-in Command:history
+Last 1 Command:history
+Last 2 Command:history 5
+Last 3 Command:history
+Last 4 Command:history 15
+Last 5 Command:history
+Last 6 Command:../bin/ls /
+Last 7 Command:./ls /
+Last 8 Command:pwd
+Last 9 Command:cd -
+Last 10 Command:cd /usr/bin /usr/ucb
+ [/home/3170a/usra/74/29821/Shell/src]>pid
+Executing built-in Command:pid
+SHELL VERSION:3.4
+TYPE:NIGAM MACHINE
+PID:16309
+ [/home/3170a/usra/74/29821/Shell/src]>kill
+Executing built-in Command:kill
+Kill needs at least 1 Argument.
+ [/home/3170a/usra/74/29821/Shell/src]>kill 16309
+Executing built-in Command:kill
+Caught signal: 15
+ [/home/3170a/usra/74/29821/Shell/src]>kill -1 16309
+Executing built-in Command:kill
+Hangup
+strauss.udel.edu% ./a.out
+Start
+ [/home/3170a/usra/74/29821/Shell/src]>prompt
+Executing built-in Command:prompt
+Enter Prompt:Abhishek
+Abhishek [/home/3170a/usra/74/29821/Shell/src]>prompt 361shell
+Executing built-in Command:prompt
+361shell [/home/3170a/usra/74/29821/Shell/src]>alias l list
+Executing built-in Command:alias
+l aliased for list
+361shell [/home/3170a/usra/74/29821/Shell/src]>alias p /usr/bin
+Executing built-in Command:alias
+p aliased for /usr/bin
+361shell [/home/3170a/usra/74/29821/Shell/src]>l p
+Old Command:l p
+New Command:list /usr/bin 
+Executing built-in Command:list
+/usr/bin:
+.
+..
+cachefspack
+cachefsstat
+df
+jsh
+passmgmt
+pfsh
+pwconv
+rmail
+sh
+sparcv7
+sparcv9
+strclean
+strerr
+sync
+tar
+uname
+alias
+amt
+arch
+at
+atq
+atrm
+auths
+basename
+busstat
+captoinfo
+cat
+chgrp
+chmod
+chown
+ckdate
+ckgid
+ckint
+ckitem
+ckkeywd
+ckpath
+ckrange
+ckstr
+cksum
+cktime
+ckuid
+ckyorn
+clear
+cmp
+coreadm
+cp
+cpio
+crle
+crontab
+crypt
+csh
+ctrun
+ctstat
+ctwatch
+cut
+date
+dd
+decrypt
+devattr
+devfree
+devreserv
+digest
+dirname
+du
+domainname
+dumpcs
+dumpkeys
+echo
+ed
+edit
+egrep
+eject
+env
+expr
+false
+fdetach
+fdformat
+fgrep
+file
+find
+fmli
+fmt
+fmtmsg
+fold
+fsstat
+geniconvtbl
+getconf
+getdev
+getdgrp
+getent
+getfacl
+getopt
+gettext
+getvol
+grep
+id
+groups
+head
+hostid
+hostname
+i286
+iconv
+infocmp
+iostat
+isainfo
+isalist
+join
+kbd
+keylogin
+keylogout
+kmfcfg
+ksh
+line
+listdgrp
+listusers
+loadkeys
+localedef
+logger
+login
+logins
+ls
+mach
+mail
+mailx
+makedev
+mesg
+mkdir
+mkpwdict
+mktemp
+moe
+more
+mpstat
+mt
+netstat
+newgrp
+nice
+optisa
+pagesize
+passwd
+patch
+pathchk
+pax
+pfexec
+pg
+pgrep
+pktool
+pr
+priocntl
+profiles
+projects
+putdev
+putdgrp
+pwd
+renice
+rm
+rmdir
+roles
+rpcinfo
+runat
+script
+sed
+setfacl
+setpgrp
+settime
+sleep
+strchg
+strconf
+stty
+su
+svcprop
+svcs
+tabs
+tail
+tee
+tic
+time
+tip
+tplot
+tput
+tr
+true
+tty
+tzselect
+vmstat
+wc
+which
+who
+wracct
+write
+xargs
+xstr
+bg
+cd
+command
+dispgid
+dispuid
+encrypt
+ex
+fc
+fg
+getopts
+hash
+i386
+i486
+i860
+i86pc
+iAPX286
+jobs
+kill
+ln
+m68k
+mac
+mc68000
+mc68010
+mc68020
+mc68030
+mc68040
+mv
+newtask
+nohup
+page
+pdp11
+pfcsh
+pfksh
+pkill
+prctl
+prstat
+ps
+read
+red
+rksh
+savecore
+setuname
+sparc
+sun
+sun2
+sun3
+sun3x
+sun4
+sun4c
+sun4d
+sun4e
+sun4m
+test
+touch
+type
+u370
+u3b
+u3b15
+u3b2
+u3b5
+ulimit
+umask
+unalias
+uptime
+vax
+vedit
+vi
+view
+w
+wait
+bzdiff
+bzgrep
+bzip2
+bzip2recover
+bzmore
+bunzip2
+bzcat
+bzcmp
+bzegrep
+bzfgrep
+bzless
+perl
+dmesg
+pcat
+strace
+asa
+awk
+banner
+batch
+bc
+bdiff
+bfs
+cal
+calendar
+col
+comm
+compress
+csplit
+dc
+diff
+diff3
+dircmp
+dos2unix
+expand
+factor
+graph
+kstat
+last
+lastcomm
+logname
+look
+mkfifo
+nawk
+newform
+news
+nl
+pack
+paste
+sdiff
+spell
+spline
+split
+sum
+tcopy
+unexpand
+uniq
+units
+unix2dos
+unpack
+uudecode
+uuencode
+vsig
+yes
+oawk
+pargs
+pcred
+pfiles
+pflags
+pldd
+pmap
+ppgsz
+ppriv
+preap
+prun
+psig
+pstack
+pstop
+ptime
+ptree
+pwait
+pwdx
+sort
+uncompress
+zcat
+rstartd
+javaws
+ControlPanel
+java
+keytool
+orbd
+policytool
+rmid
+rmiregistry
+servertool
+tnameserv
+fc-cache
+fc-list
+bmp2tiff
+fax2ps
+fax2tiff
+gif2tiff
+pal2rgb
+ppm2tiff
+ras2tiff
+raw2tiff
+rgb2ycbcr
+thumbnail
+tiff2bw
+tiff2pdf
+tiff2ps
+tiff2rgba
+tiffcmp
+tiffcp
+tiffdither
+tiffdump
+tiffinfo
+tiffmedian
+tiffset
+tiffsplit
+xml2-config
+xmlcatalog
+xmllint
+cjpeg
+djpeg
+jpegtran
+rdjpgcom
+wrjpgcom
+libpng-config
+libpng12-config
+pango-querymodules
+rsvg
+activation-client
+bonobo-activation-run-query
+bonobo-slay
+echo-client-2
+ior-decode-2
+linc-cleanup-sockets
+typelib-dump
+gconf-merge-tree
+gconftool-2
+esdcat
+esdctl
+esdmon
+esdplay
+esdrec
+esdsample
+kdestroy
+kinit
+klist
+kpasswd
+krb5-config
+ktutil
+gnomevfs-cat
+gnomevfs-copy
+gnomevfs-info
+gnomevfs-ls
+gnomevfs-mkdir
+update-mime-database
+gnome-keyring-daemon
+gnome-open
+scrollkeeper-config
+scrollkeeper-get-cl
+scrollkeeper-get-content-list
+scrollkeeper-get-extended-content-list
+ldd
+scrollkeeper-get-index-from-docpath
+scrollkeeper-get-toc-from-docpath
+scrollkeeper-get-toc-from-id
+scrollkeeper-install
+scrollkeeper-preinstall
+scrollkeeper-rebuilddb
+scrollkeeper-uninstall
+scrollkeeper-update
+thunderbird
+telnet
+prex
+tnfxtract
+tnfdump
+ctags
+elfsign
+exstr
+od
+pvs
+sotruss
+strings
+whocalls
+gcore
+plimit
+truss
+addbib
+apropos
+checkeq
+checknr
+daps
+deroff
+diffmk
+eqn
+indxbib
+lookbib
+neqn
+nroff
+refer
+roffbib
+soelim
+sortbib
+ta
+tbl
+troff
+ul
+vgrind
+catman
+man
+whatis
+makeuuid
+prodreg
+pkgadm
+pkgcond
+pkginfo
+pkgmk
+unzip
+pkgparam
+pkgproto
+pkgtrans
+zipinfo
+swupnot
+updatemanager
+gzdiff
+gzexe
+gzforce
+gzgrep
+gzip
+gzless
+gzmore
+gznew
+gunzip
+gzcat
+gzcmp
+gzegrep
+gzfgrep
+smartcard
+nfsstat
+on
+rmformat
+volcheck
+volrmmount
+showrev
+apm
+HtmlConverter
+appletviewer
+extcheck
+idlj
+jar
+jarsigner
+javac
+javadoc
+javah
+javap
+jdb
+native2ascii
+rmic
+serialver
+ftp
+remsh
+filesync
+rcp
+rdate
+rdist
+rlogin
+rsh
+rup
+ruptime
+rusers
+whois
+finger
+rwho
+talk
+tftp
+jmplay
+screensaver-properties-capplet
+solstice
+gnome-about
+gnome-cleanup
+gnome-desktop-item-edit
+gnome-panel
+gnome-panel-preferences
+gnome-panel-screenshot
+swup_boots
+apt
+xslt-config
+xsltproc
+gnome-help
+yelp
+libgcrypt-config
+gpatch
+X11
+idnconv
+ipcrm
+ipcs
+aliasadm
+chkey
+ldaplist
+nisaddcred
+niscat
+nischgrp
+nisdefaults
+niserror
+nisgrep
+nisgrpadm
+nisln
+nisls
+nismatch
+nismkdir
+nispasswd
+nispath
+nisprefadm
+nisrm
+nisrmdir
+nistbladm
+nistest
+ypcat
+ypmatch
+yppasswd
+ypwhich
+nischmod
+nischown
+nischttl
+zip
+zipcloak
+zipnote
+zipsplit
+imqadmin
+imqbrokerd
+imqcmd
+imqdbmgr
+imqkeytool
+imqobjmgr
+imqusermgr
+poolstat
+enhance
+zonename
+zsh
+chrtbl
+colltbl
+gencat
+genmsg
+gettxt
+kbdcomp
+locale
+mkmsgs
+montbl
+msgfmt
+printf
+srchtxt
+xgettext
+wchrtbl
+cputrack
+adb
+mdb
+lp_1251
+python
+idle
+pydoc
+sag
+python2.4
+bash
+sar
+acctcom
+timex
+acroread
+chat
+pppd
+pppstats
+rpcgen
+appcert
+apoc-config
+aspell
+aspell-import
+pspell-config
+run-with-aspell
+word-list-compress
+audioconvert
+audioplay
+audiorecord
+auto_ef
+bart
+ct
+cu
+uucp
+uuglist
+uulog
+uuname
+uupick
+uustat
+uuto
+uux
+jnlp2pkg
+cdrw
+des
+apptrace
+disable
+enable
+cancel
+lp
+lpget
+lpset
+lpstat
+digestp
+filep
+filofaxp
+franklinp
+newsp
+timemanp
+timesysp
+mailp
+mp
+less
+lessecho
+lesskey
+ldapdelete
+ldapmodify
+ldapmodrdn
+ldapsearch
+ldapadd
+dvd+rw-booktype
+dvd+rw-format
+dvd+rw-mediainfo
+dvd-ram-control
+growisofs
+gnome-printinfo
+libgnomeprint-2.0-font-install
+evolution
+evolution-1.4
+evolution-addressbook-export
+ximian-connector-setup
+hydrogen
+cdda2wav
+cdrecord
+mkisofs
+readcd
+firefox
+firefox-config
+ncab2clf
+nautilus
+nautilus-add-network-place-main
+nautilus-file-management-properties
+fsexam
+genlayouttbl
+magnifier
+festival-synthesis-driver
+freetts-synthesis-driver
+test-speech
+audiofile-config
+esd-config
+scrollkeeper-extract
+scrollkeeper-gen-seriesid
+test-moniker
+at-poke
+file-roller
+gdk-pixbuf-csource
+gdk-pixbuf-query-loaders
+glib-genmarshal
+gdm
+glib-gettextize
+glib-mkenums
+gobject-query
+gtk-demo
+gtk-query-immodules-2.0
+libart2-config
+gnome-calculator
+gcalctool
+clusterdb
+createdb
+createlang
+createuser
+dropdb
+droplang
+dropuser
+pg_dump
+pg_dumpall
+pg_restore
+psql
+reindexdb
+vacuumdb
+cddb-slave2-properties
+gnome-cd
+charmap
+nautilus-cd-burner
+gnome-character-map
+gucharmap
+realplay
+gnome-autogen.sh
+gnome-doc-common
+gtkdoc-fixxref
+gtkdoc-mkdb
+gtkdoc-mkhtml
+gtkdoc-mkman
+gtkdoc-mktmpl
+gtkdoc-scan
+gtkdoc-scangobj
+gtkdoc-scanobj
+gtkdocize
+intltool-extract
+intltool-merge
+intltool-prepare
+intltool-update
+intltoolize
+pkg-config
+eog
+xml-i18n-toolize
+libIDL-config-2
+orbit-idl-2
+orbit2-config
+gconf-editor
+DBMirror.pl
+clean_pending.pl
+dbf2pg
+fti.pl
+oid2name
+pgbench
+vacuumlo
+ecpg
+pg_config
+metacity
+metacity-message
+metacity-theme-viewer
+metacity-window-demo
+gnome-accessibility-keyboard-properties
+gnome-at-properties
+gnome-control-center
+gnome-background-properties
+gnome-default-applications-properties
+gnome-display-properties
+gnome-file-types-properties
+gnome-font-properties
+gnome-font-viewer
+gnome-keybinding-properties
+gnome-keyboard-properties
+gnome-mouse-properties
+gnome-network-preferences
+gnome-sound-properties
+gnome-theme-manager
+gnome-theme-thumbnailer
+gnome-thumbnail-font
+gnome-typing-monitor
+gnome-ui-properties
+gnome-window-properties
+themus-theme-applier
+gdialog
+zenity
+pltcl_delmod
+pltcl_listmod
+pltcl_loadmod
+postmaster
+initdb
+ipcclean
+pg_controldata
+pg_ctl
+pg_resetxlog
+postgres
+gnome-session
+gnome-session-properties
+gnome-session-remove
+gnome-session-save
+gnome-smproxy
+gnome-wm
+gdmXnest
+gdm-binary
+gdmXnestchooser
+gdmchooser
+gdmflexiserver
+gdmgreeter
+gdmlogin
+gdmphotosetup
+gdmsetup
+gdmthemetester
+pppdump
+rcapstat
+ghex2
+smbpasswd
+rpm2cpio
+jds-help
+jdshelp
+gnome-audio-profiles-properties
+gnome-volume-control
+gst-complete
+gst-complete-0.8
+gst-compprep
+gst-compprep-0.8
+gst-feedback
+gst-feedback-0.8
+gst-inspect
+gst-inspect-0.8
+gst-launch
+gst-launch-0.8
+gst-launch-ext-0.8
+gst-md5sum
+gst-md5sum-0.8
+gst-register
+gst-register-0.8
+gst-thumbnail
+gst-typefind
+gst-typefind-0.8
+gst-xmlinspect
+gst-xmlinspect-0.8
+gst-xmllaunch
+gst-xmllaunch-0.8
+gstreamer-properties
+stclient
+panel-test-applets
+gpdf
+pdflaunch
+gnome-perfmeter
+mailcompat
+mailq
+mailstats
+mconnect
+praliases
+vacation
+gnome-pilot-make-password
+gpilot-install-file
+gpilotd-control-applet
+gpilotd-session-wrapper
+ggv
+gnome-volcheck
+gnome-search-tool
+gnome-sound-recorder
+vumeter
+gnome-sys-suspend
+cflow
+gnome-terminal
+vte
+gnome-text-editor
+gedit
+glade-2
+gkb_xmmap
+gnome-keyboard-layout
+gswitchit-plugins-capplet
+ssh-keygen
+ssh-keyscan
+scp
+sftp
+ssh
+ssh-add
+ssh-agent
+tcsh
+rsync
+CC
+CCadmin
+analyzer
+bcheck
+bil2xd
+binopt
+c++filt
+c89
+c99
+cb
+cc
+cc-5.0
+checkjava
+collect
+cscope
+ctc
+ctcr
+ctrace
+cxref
+dbx
+dem
+dmake
+dumpstabs
+dwarfdump
+er_archive
+er_cp
+er_export
+er_kernel
+er_mv
+er_print
+er_rm
+er_src
+f77
+f90
+f95
+fbe
+fbe-4.0
+fdumpmod
+fpp
+fpr
+fpversion
+fsplit
+gil2xd
+indent
+libsunperf_check
+lint
+lock_lint
+rdtimgr
+rtc_patch_area
+rxm
+rxs
+sbcleanup
+sbenter
+sbquery
+sbtags
+smallxd
+smctl
+ss_attach
+sunCC
+sunas
+sunc89
+sunc99
+suncc
+sunf77
+sunf90
+sunf95
+sunstudio
+tcov
+tha
+uil2xd
+version
+version-5.0
+visu
+visuroot
+whatdir
+xdcapture
+xdconfig
+xdesigner
+xdhelp
+xdrecord
+xdreplay
+xdroot
+xdtosj
+nsr_render_log
+nsravtar
+nsrbmr
+nsrfile
+nsrports
+nsrwatch
+nwrecover
+nwretrieve
+preclntsave
+pstclntsave
+recover
+save
+sharesec
+smbcacls
+smbclient
+smbcontrol
+smbcquotas
+smbget
+newgrp:10
+chgrp:10
+recover.bin
+rpcclient
+funzip
+unzipsfx
+zipgrep
+tiffcrop
+pidgin
+pdbedit
+lpc
+lpq
+lpr
+ntlm_auth
+lprm
+lptest
+net
+nmblookup
+libpng10-config
+eventlogadm
+findsmb
+ldbadd
+ldbdel
+ldbedit
+ldbmodify
+ldbrename
+ldbsearch
+smbprofiles
+smbspool
+smbstatus
+smbtar
+smbtree
+tdbbackup
+tdbdump
+tdbtool
+testparm
+wbinfo
+chgrp.save
+fc-cat
+fc-match
+fsexamc
+rbash
+7z
+7za
+7zr
+p7zip
+isapython2.6
+python2.6
+python-config
+2to3
+itu
+python2.6-config
+elfedit
+pginfo
+pgstat
+elfwrap
+mkbootmedia
+pkg2du
+updatemedia
+chgrp.164806-01
+361shell [/home/3170a/usra/74/29821/Shell/src]>alias h history
+Executing built-in Command:alias
+h aliased for history
+361shell [/home/3170a/usra/74/29821/Shell/src]>h 5
+Old Command:h 5
+New Command:history 5 
+Executing built-in Command:history
+Last 1 Command:h 5
+Last 2 Command:alias h history
+Last 3 Command:l p
+Last 4 Command:alias p /usr/bin
+Last 5 Command:alias l list
+361shell [/home/3170a/usra/74/29821/Shell/src]>h
+Old Command:h
+New Command:history 
+Executing built-in Command:history
+Last 1 Command:h
+Last 2 Command:h 5
+Last 3 Command:alias h history
+Last 4 Command:l p
+Last 5 Command:alias p /usr/bin
+Last 6 Command:alias l list
+Last 7 Command:prompt 361shell
+Last 8 Command:prompt
+361shell [/home/3170a/usra/74/29821/Shell/src]>alias
+Executing built-in Command:alias
+l = list
+p = /usr/bin
+h = history
+361shell [/home/3170a/usra/74/29821/Shell/src]>printenv PATH
+Executing built-in Command:printenv
+PATH:/opt/bin:/opt/SUNWspro/bin:/usr/openwin/bin:/usr/bin:/usr/ccs/bin:/usr/ucb:/opt/X11R5/bin
+361shell [/home/3170a/usra/74/29821/Shell/src]>printev
+printev: The system cannot find the path specified
+361shell [/home/3170a/usra/74/29821/Shell/src]>printenv
+Executing built-in Command:printenv
+USER=abhishek
+LOGNAME=abhishek
+HOME=/home/usra/74/29821
+PATH=/opt/bin:/opt/SUNWspro/bin:/usr/openwin/bin:/usr/bin:/usr/ccs/bin:/usr/ucb:/opt/X11R5/bin
+MAIL=/var/mail//abhishek
+SHELL=/bin/csh
+TZ=US/Eastern
+SSH_CLIENT=128.4.85.142 62526 22
+SSH_CONNECTION=128.4.85.142 62526 128.175.13.74 22
+SSH_TTY=/dev/pts/102
+TERM=xterm
+PWD=/home/3170a/usra/74/29821/Shell/src
+MANPATH=/opt/man:/opt/SUNWspro/man:/usr/openwin/man:/usr/man:/opt/X11R5/man
+LD_LIBRARY_PATH=
+OPENWINHOME=/usr/openwin
+XHOME=/opt/X11R5
+HOSTNAME=strauss.udel.edu
+XRSH_AUTH_TYPE=xauth
+XRSH_ENVS_TO_PASS=XRSH_ENVS_TO_PASS XRSH_AUTH_TYPE
+LOCALENV=
+361shell [/home/3170a/usra/74/29821/Shell/src]>printenv
+Executing built-in Command:printenv
+USER=abhishek
+LOGNAME=abhishek
+HOME=/home/usra/74/29821
+PATH=/opt/bin:/opt/SUNWspro/bin:/usr/openwin/bin:/usr/bin:/usr/ccs/bin:/usr/ucb:/opt/X11R5/bin
+MAIL=/var/mail//abhishek
+SHELL=/bin/csh
+TZ=US/Eastern
+SSH_CLIENT=128.4.85.142 62526 22
+SSH_CONNECTION=128.4.85.142 62526 128.175.13.74 22
+SSH_TTY=/dev/pts/102
+TERM=xterm
+PWD=/home/3170a/usra/74/29821/Shell/src
+MANPATH=/opt/man:/opt/SUNWspro/man:/usr/openwin/man:/usr/man:/opt/X11R5/man
+LD_LIBRARY_PATH=
+OPENWINHOME=/usr/openwin
+XHOME=/opt/X11R5
+HOSTNAME=strauss.udel.edu
+XRSH_AUTH_TYPE=xauth
+XRSH_ENVS_TO_PASS=XRSH_ENVS_TO_PASS XRSH_AUTH_TYPE
+LOCALENV=
+361shell [/home/3170a/usra/74/29821/Shell/src]>setenv
+USER=abhishek
+LOGNAME=abhishek
+HOME=/home/usra/74/29821
+PATH=/opt/bin:/opt/SUNWspro/bin:/usr/openwin/bin:/usr/bin:/usr/ccs/bin:/usr/ucb:/opt/X11R5/bin
+MAIL=/var/mail//abhishek
+SHELL=/bin/csh
+TZ=US/Eastern
+SSH_CLIENT=128.4.85.142 62526 22
+SSH_CONNECTION=128.4.85.142 62526 128.175.13.74 22
+SSH_TTY=/dev/pts/102
+TERM=xterm
+PWD=/home/3170a/usra/74/29821/Shell/src
+MANPATH=/opt/man:/opt/SUNWspro/man:/usr/openwin/man:/usr/man:/opt/X11R5/man
+LD_LIBRARY_PATH=
+OPENWINHOME=/usr/openwin
+XHOME=/opt/X11R5
+HOSTNAME=strauss.udel.edu
+XRSH_AUTH_TYPE=xauth
+XRSH_ENVS_TO_PASS=XRSH_ENVS_TO_PASS XRSH_AUTH_TYPE
+LOCALENV=
+361shell [/home/3170a/usra/74/29821/Shell/src]>setenv TEST
+TESTTEST=361shell [/home/3170a/usra/74/29821/Shell/src]>printenv TEST
+Executing built-in Command:printenv
+TEST:
+361shell [/home/3170a/usra/74/29821/Shell/src]>setenv TEST testing
+361shell [/home/3170a/usra/74/29821/Shell/src]>printenv TEST
+Executing built-in Command:printenv
+TEST:testing
+361shell [/home/3170a/usra/74/29821/Shell/src]>setenv TEST testing more
+setenv: Too many arguments.
+361shell [/home/3170a/usra/74/29821/Shell/src]>setenv HOME /
+361shell [/home/3170a/usra/74/29821/Shell/src]>cd
+Executing built-in Command:cd
+361shell [/]>pwd
+Executing built-in Command:pwd
+Current Working Directory: /
+361shell [/]>exit
+Executing built-in Command:exit
+Exiting..strauss.udel.edu% exit
+strauss.udel.edu% 
+script done on Mon Oct 07 15:48:23 2013

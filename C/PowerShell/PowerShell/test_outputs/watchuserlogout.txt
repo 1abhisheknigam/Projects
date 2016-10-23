@@ -1,0 +1,17 @@
+Script started on Mon Oct 28 20:25:48 2013
+strauss.udel.edu% ./a.out
+Start
+ [/home/3170a/usra/74/29821/Shell2/src]>watchuser abhishek
+ [/home/3170a/usra/74/29821/Shell2/src]>abhishek has logged on pts/102 from wifi-roaming-128-4-83-135.nss.udel.edu
+watchuser kahn
+ [/home/3170a/usra/74/29821/Shell2/src]>watchuser cshen
+ [/home/3170a/usra/74/29821/Shell2/src]>watchuser Thread: Slept for 20s
+cshen has logged on pts/101 from host-4-21-33.nss.udel.edu
+abhishek has logged on pts/102 from wifi-roaming-128-4-83-135.nss.udel.edu
+kahn has logged out of pts/69 from localhost
+cshen has logged on pts/145 from host-4-21-33.nss.udel.edu
+exit
+Executing built-in Command:exit
+Exiting..strauss.udel.edu% exit
+strauss.udel.edu% 
+script done on Mon Oct 28 20:26:25 2013

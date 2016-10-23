@@ -1,0 +1,20 @@
+Script started on Mon Oct 28 19:30:31 2013
+strauss.udel.edu% ./a.out
+Start
+ [/home/3170a/usra/74/29821/Shell2/src]>uptime
+Executing new process:uptime
+  7:30pm  up 215 day(s), 11:08,  63 users,  load average: 5.24, 5.25, 5.24
+ [/home/3170a/usra/74/29821/Shell2/src]>warnload 5.25
+ [/home/3170a/usra/74/29821/Shell2/src]>Warnload Thread: Slept for 30.
+warnload 5.0
+ [/home/3170a/usra/74/29821/Shell2/src]>Warnload Thread: Slept for 30.
+Warning: Load Level:5.24 Threshold:5.0
+wartn
+wartn: The system cannot find the path specified
+ [/home/3170a/usra/74/29821/Shell2/src]>warnload 0.0
+ [/home/3170a/usra/74/29821/Shell2/src]>Load = 0.0, Ending Thread..
+exit
+Executing built-in Command:exit
+Exiting..strauss.udel.edu% exit
+strauss.udel.edu% 
+script done on Mon Oct 28 19:31:56 2013

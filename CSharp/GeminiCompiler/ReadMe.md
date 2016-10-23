@@ -1,15 +1,16 @@
-////////////////////////
-Gemini Compiler Project
-////////////////////////
+#Gemini Compiler Project
 
 This project was meant to be an emulator of the working of a processor, built entirely in C#
 
-Directory Structure
+#### Directory Structure
+
 *[Project Gemini](https://github.com/1abhisheknigam/Projects/tree/master/CSharp/GeminiCompiler/ProjectGemini): Source Code files
+
 *[Screen Captures](https://github.com/1abhisheknigam/Projects/tree/master/CSharp/GeminiCompiler/Screen%20Captures): Some images of the program in action
+
 *[Source Files](https://github.com/1abhisheknigam/Projects/tree/master/CSharp/GeminiCompiler/Source%20Files): These files are written in the custom "Gemini Assembly" language, used as input source code for the emulator
 
-Functionality
+#### Functionality
 >The software will take a file name of a file that contains "Gemini Assembly", a brand new language created for the purpose of this class.
 >Instruction Set for the new language:
       (Note that $val indicates a memory location
@@ -55,7 +56,7 @@ Furthermore
 >Use of cache levels are also simulated and displayed
 >Running of commands is done in specific stages e.g. fetch,read and write, mimicking real processors
 
-Usage
+#### Usage
 >The ProjectGemini is pretty simple and easy to use! Hit open to select a file. 
 >Files may be reselected at any time As soon as a file is selected, it will automatically compile. 
 >If there are sytnax errors it will display in the status. 
